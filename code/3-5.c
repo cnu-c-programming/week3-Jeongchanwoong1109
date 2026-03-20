@@ -21,7 +21,7 @@ void my_sum(char type, int count, ...) {
         for (int i = 0; i < count; i++) {
             total += va_arg(ap, int);
         }
-        printf("%d\n", total);
+        printf("%d", total);
     }
 }
 
